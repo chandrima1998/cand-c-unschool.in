@@ -3,12 +3,13 @@
 
 int main()
 {
-    int a,b,c,sum;
-    printf("enter three numbers:\n");
-
-    scanf("%d%d%d",&a,&b,&c);
-    sum=(a+b+c);
-
-    printf("sum of the three numbers is:%d",sum);
+    int a,b;
+    printf("Enter two numbers:\n");
+    scanf("%d%d",&a,&b);
+    printf("sum of %d and %d is:%d\n",a,b,a+b);
+    printf("difference of %d and %d is:%d\n",a,b,a-b);
+    printf("product of %d and %d is:%d\n",a,b,a*b);
+    printf("division of %d and %d is:%f\n",a,b,a/b);
+    printf("modulo of %d and %d is:%d\n",a,b,a%b);
     return 0;
 }
